@@ -12,3 +12,23 @@ height: 300px;
 image-rendering: auto;
 
 }
+ol {
+    list-style-type: decimal; /* Cambia el tipo de numeración */
+    margin: 1em 0; /* Agrega margen arriba y abajo */
+    padding: 0; /* Elimina el relleno */
+  }
+  
+  li {
+    padding: 0.5em 0; /* Agrega relleno arriba y abajo */
+    border-bottom: 1px solid #ccc; /* Agrega una línea divisoria */
+  }
+  
+  li:last-child {
+    border-bottom: none; /* Elimina la línea divisoria del último elemento */
+  }
+  
+  li:before {
+    content: '• '; /* Agrega un símbolo antes de cada elemento */
+    color: #f00; /* Cambia el color del símbolo */
+    margin-left: -1em; /* Desplaza el símbolo a la izquierda */
+  }
