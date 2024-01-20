@@ -5,3 +5,10 @@ background-color: aliceblue;
 
 }
 
+img{
+text-align: center;
+width: 30%;
+height: 300px;
+image-rendering: auto;
+
+}
